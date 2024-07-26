@@ -31,9 +31,9 @@ jobs:
       run: npm test
 
     - name: Build
-      working-directory: ./worksheet2/my-react-app
+      working-directory: ../worksheet2/my-react-app
       run: npm run build
 
     - name: Start project
-      working-directory: ./worksheet2/my-react-app
+      working-directory: ../worksheet2/my-react-app
       run: npm start
